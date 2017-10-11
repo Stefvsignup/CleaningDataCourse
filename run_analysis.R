@@ -61,5 +61,9 @@ col_names <- gsub("Acc", "Acceleration", col_names)
 col_names <- gsub("^t", "Time", col_names)
 col_names <- gsub("^f", "Frequency", col_names)
 
+#Aggregate
 data_subset_agg<-merged_data_subset[,lapply(.SD, mean),by=.(activityType,subjectId)]
+
+#write TXT file
 write.table(data_subset_agg,file="data_subset_agg.txt")
+write.table(merged_data_subset,file="merged_data_subset.txt")
