@@ -1,13 +1,14 @@
 #Overview
+============
 This project is a deliverable for the coursera course project Getting And Cleaning Data. In this project we take a real-life dataset and clean up the dataset so it is ready in a more readable format for further analysis
 
 A full description of the process, variables and output files is provided in the CodeBook.MD file. Below I've copied the original readme.txt file from the data set. This contains more general information about the information used as well as the copy rights
 
 
 #Readme file of dataset
+========================
 
 For each record it is provided:
-======================================
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 

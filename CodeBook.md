@@ -1,4 +1,5 @@
 #Overview
+============
 
 ###Source of the original data:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -7,6 +8,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ###Process
+============
 The script run_analysis.R performs the following process to clean up the data and create tiny data sets:
 
 * Read in data sets and apply columing naming using features.txt
@@ -17,6 +19,7 @@ The script run_analysis.R performs the following process to clean up the data an
 * The average of each measurement for each activity and each subject is merged to a second data set. The result is saved as data_subset_agg.txt.
 
 ###Variables
+=============
 
 * features - table contents of features.txt
 * activity_label - table contents of activity_label.txt
@@ -34,6 +37,7 @@ The script run_analysis.R performs the following process to clean up the data an
 * data_subset_agg - an aggregate which calculates the mean of each measure per subject id & activity type
 
 ###Output file description
+==========================
 
 #####merged_data_subset.txt
 merged_data_subset.txt is a 10299x88 data frame.
